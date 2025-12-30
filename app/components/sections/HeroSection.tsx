@@ -50,7 +50,7 @@ const HeroSection = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
             >
               <motion.button
-                className="flex items-center justify-center px-6 py-3.5 bg-black text-white rounded-xl hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl text-sm"
+                className="flex cursor-pointer items-center justify-center px-6 py-3.5 bg-black text-white rounded-xl hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl text-sm"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -62,7 +62,7 @@ const HeroSection = () => {
               </motion.button>
 
               <motion.button
-                className="flex items-center justify-center px-6 py-3.5 bg-black text-white rounded-xl hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl text-sm"
+                className="flex items-center cursor-pointer justify-center px-6 py-3.5 bg-black text-white rounded-xl hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl text-sm"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
